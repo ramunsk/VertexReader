@@ -30,7 +30,7 @@ void printVertices()
 		SUPoint3D point;
 		SUResult result = SUVertexGetPosition(_vertices[i], &point);
 
-		printf("{ %.1ff, %.1ff, %.1ff}\n", point.x, point.y, point.z);
+		printf("{ %5.1ff, %5.1ff, %5.1ff }\n", point.x, point.y, point.z);
 	}
 }
 

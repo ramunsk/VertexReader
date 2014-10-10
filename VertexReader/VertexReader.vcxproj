@@ -41,8 +41,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\_Ramunas\Git\VertexReader\vendor\headers;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\_Ramunas\Git\VertexReader\vendor\bin;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)vendor\headers;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)vendor\bin;$(LibraryPath)</LibraryPath>
     <GenerateManifest>true</GenerateManifest>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
